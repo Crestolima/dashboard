@@ -1,0 +1,113 @@
+.sidebar {
+  background-color: #050570; /* Background color */
+  flex: 1;
+  border-right: 0.5px solid rgb(230, 227, 227);
+  display: flex;
+  flex-direction: column; /* Set the sidebar content to stack vertically */
+  min-height: 100vh;
+
+  .center,.bottom{
+    margin-bottom: 450px;
+  }
+  
+
+  .top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+
+    .icon1 {
+      font-size: 18px;
+      color: white; /* Text color */
+    }
+
+    .logo {
+      font-size: 20px;
+      font-weight: bold;
+      color: white; /* Text color */
+      padding: 5px;
+    }
+  }
+
+  .center {
+    padding-left: 10px;
+    // height: 50px;
+
+    ul.your-ul-class {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        padding: 10px;
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        color: white; /* Text color */
+
+        &:hover {
+          background-color: rgb(4, 52, 93);
+        }
+
+        .icon {
+          font-size: 18px;
+          color: white; /* Icon color */
+          padding-right: 8px;
+        }
+
+        .span {
+          display: flex;
+          align-items: center;
+        }
+      }
+    }
+  }
+
+  .bottom {
+    background-color: rgb(4, 52, 93);
+    border-radius: 10px;
+    
+    
+
+
+    .boxarea{
+      display: flex;
+      .bx2{
+        padding-left: 0.5px;
+        color: #ffff;
+
+        h5{
+          margin-left: 25px;
+        }
+        p{
+          margin-left: 12px;
+        }
+        
+
+      }
+
+
+      .bx2,.bx3{
+        justify-content: space-between;
+        padding-left: 2px;
+      }
+      .bx3{
+        .dicon{
+          margin-left: 60px;
+          margin-top: 16px;
+          size: 10pt;
+        }
+      }
+      
+      
+    }
+    
+    
+  }
+
+}

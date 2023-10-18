@@ -1,0 +1,70 @@
+.home {
+  display: flex;
+  
+  .homeContainer {
+    background-color: rgb(208, 208, 216);
+    flex: 6;
+
+    .widgets,
+    .charts {
+      display: flex;
+      padding: 20px;
+      gap: 20px;
+    }
+
+    .charts {
+      padding: 5px 20px;
+    }
+
+    .listConatiner {
+      box-shadow: 5px 2px 10px 5px grey;
+      background-color: rgb(255, 255, 255);
+      border-radius: 10px;
+      height: 350px;
+      padding: 20px;
+      margin: 20px;
+      // overflow: auto;
+
+      .a2 {
+        display: flex;
+        justify-content: space-between;
+
+        .search-and-select {
+          display: flex;
+          align-items: center;
+          justify-content: flex-end; // Align the content to the right
+
+          .search {
+            display: flex;
+            align-items: center;
+            border: 2px solid rgb(255, 255, 255);
+            padding: 3px;
+            border-radius: 4px;
+            background-color: rgb(236, 231, 231);
+            //height: 100%; // Set the same background height as the select
+
+            input {
+              border: none;
+              outline: none;
+              background: transparent;
+              //height: 100%; // Set the same height as the parent
+              &::placeholder {
+                font-size: 12px;
+              }
+            }
+          }
+
+          .chart-dropdown {
+            background-color: #FFFFFF;
+            border: 2px solid rgb(255, 255, 255);
+            border-radius: 4px;
+            background-color: rgb(236, 231, 231);
+            padding: 3px;
+            height: 98%; // Set the same height as the search input
+            margin-left: 10px; // Add some space between the search input and select
+          }
+        }
+      }
+    }
+  }
+}

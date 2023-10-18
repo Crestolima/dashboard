@@ -1,0 +1,26 @@
+.ProgressBar{
+    flex: 2;
+    box-shadow: 5px 2px 10px 5px grey;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    height: 400px;
+    padding: 10px;
+
+    .bottom{
+        height: 100px;
+
+        .pb{
+            width: 300px;
+            height: 300px;
+            margin-left: 115px;
+            margin-top: 30px;
+            
+
+            // .p{
+            //     position: absolute;
+            //     top: 5;
+            //     right: 20;
+            // }
+        }
+    }
+}
